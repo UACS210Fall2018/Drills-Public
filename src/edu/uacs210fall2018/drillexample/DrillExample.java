@@ -1,6 +1,6 @@
-package edu.uacs210fall2018.drill01;
+package edu.uacs210fall2018.drillexample;
 
-public class Drill01 {
+public class DrillExample {
 
     
     static int addOne(int val) {

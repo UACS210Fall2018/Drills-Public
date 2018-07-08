@@ -1,18 +1,20 @@
-package edu.uacs210fall2018.drill01;
+package edu.uacs210fall2018.drillexample;
+
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import static org.junit.Assert.*;
+
 // This is an annotation for assigning point values to tests
 import com.gradescope.jh61b.grader.GradedTest;
 
 
 
-public class Drill01TestClass {
+public class DrillExampleTestClass {
 
     @Test
     @GradedTest(name="addOne test1, start at -1", max_score=1)
     public void test_addOne_test1() {
-        int x = Drill01.addOne(-1);
+        int x = DrillExample.addOne(-1);
         System.out.println("addOne(-1), got " + x);
         assertEquals(x, 0);
     }

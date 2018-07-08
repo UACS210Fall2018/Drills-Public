@@ -1,20 +1,18 @@
 // Define whatever package name you want
-package edu.uacs210fall2018.drill01;
+package edu.uacs210fall2018.drillexample;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 
-// Import your test classes here
-import edu.youruniversity.hw1.MyTestClass;
 // This test listener produces the formatted JSON output for Gradescope
 import com.gradescope.jh61b.grader.GradedTestListenerJSON;
 
 // Define a test suite, with the classes that contain the tests you wish to run
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-        Drill01TestClass.class
+        DrillExampleTestClass.class
             })
 // The main class to be executed; this is the entry point for your tests
 public class RunTests {

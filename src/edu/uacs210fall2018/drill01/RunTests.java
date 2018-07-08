@@ -1,13 +1,11 @@
 // Define whatever package name you want
 package edu.uacs210fall2018.drill01;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.Result;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
 
-// Import your test classes here
-import edu.youruniversity.hw1.MyTestClass;
 // This test listener produces the formatted JSON output for Gradescope
 import com.gradescope.jh61b.grader.GradedTestListenerJSON;
 
