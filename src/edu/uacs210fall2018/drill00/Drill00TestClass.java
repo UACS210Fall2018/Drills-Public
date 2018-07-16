@@ -1,4 +1,4 @@
-package edu.uacs210fall2018.drillexample;
+package edu.uacs210fall2018.drill00;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,13 +11,13 @@ import com.gradescope.jh61b.grader.GradedTest;
 
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
-public class DrillExampleTestClass {
+public class Drill00TestClass {
 
 
     @Test
     @GradedTest(name = "addOne test1, start at -1", max_score = 1)
     public void test_addOne_test1() {
-        int x = DrillExample.addOne(-1);
+        int x = Drill00.addOne(-1);
         System.out.println("addOne(-1), got " + x);
         assertEquals(x, 0);
     }
@@ -25,7 +25,7 @@ public class DrillExampleTestClass {
     @Test
     @GradedTest(name = "addOne test2, start at -9999", max_score = 1)
     public void test_addOne_test2() {
-        int x = DrillExample.addOne(-9999);
+        int x = Drill00.addOne(-9999);
         System.out.println("addOne(-9999), got " + x);
         assertEquals(x, -9998);
     }
@@ -33,7 +33,7 @@ public class DrillExampleTestClass {
     @Test
     @GradedTest(name = "addOne test3, start at Integer.MAX_VALUE", max_score = 1)
     public void test_addOne_test3() {
-        int x = DrillExample.addOne(Integer.MAX_VALUE);
+        int x = Drill00.addOne(Integer.MAX_VALUE);
         System.out.println("addOne(Integer.MAX_VALUE), got " + x);
         assertEquals(x, Integer.MIN_VALUE);
     }
@@ -41,7 +41,7 @@ public class DrillExampleTestClass {
     @Test
     @GradedTest(name = "subtractOne test1, start at Integer.MAX_VALUE", max_score = 1)
     public void test_subtractOne_test1() {
-        int x = DrillExample.subtractOne(Integer.MAX_VALUE);
+        int x = Drill00.subtractOne(Integer.MAX_VALUE);
         System.out.println("subtractOne(Integer.MAX_VALUE), got " + x);
         assertEquals(x, Integer.MAX_VALUE - 1);
     }
@@ -49,7 +49,7 @@ public class DrillExampleTestClass {
     @Test
     @GradedTest(name = "subtractOne test2, start at Integer.MIN_VALUE", max_score = 1)
     public void test_subtractOne_test2() {
-        int x = DrillExample.subtractOne(Integer.MIN_VALUE);
+        int x = Drill00.subtractOne(Integer.MIN_VALUE);
         System.out.println("subtractOne(Integer.MIN_VALUE), got " + x);
         assertEquals(x, Integer.MAX_VALUE);
     }
@@ -57,7 +57,7 @@ public class DrillExampleTestClass {
     @Test
     @GradedTest(name = "subtractOne test3, start at 0", max_score = 1)
     public void test_subtractOne_test3() {
-        int x = DrillExample.subtractOne(0);
+        int x = Drill00.subtractOne(0);
         System.out.println("subtractOne(0), got " + x);
         assertEquals(x, -1);
     }
