@@ -1,4 +1,4 @@
-package edu.uacs210fall2018.drill02;
+package edu.uacs210fall2018.drill03;
 
 import static org.junit.Assert.assertEquals;
 
@@ -8,6 +8,6 @@ import org.junit.Test;
 import com.gradescope.jh61b.grader.GradedTest;
 
 
-public class Drill02TestClass {
+public class Drill03TestClass {
 
 }
