@@ -1,4 +1,3 @@
-// Define whatever package name you want
 package edu.uacs210fall2018.drill01;
 
 import org.junit.runner.JUnitCore;
