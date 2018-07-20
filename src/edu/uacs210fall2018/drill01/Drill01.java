@@ -1,31 +1,64 @@
 package edu.uacs210fall2018.drill01;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 public class Drill01 {
 
-    // Increment the given val by one and return the result.
-    static int addOne(int val) {
-        // TODO: replace 0 below with correct expression
-        // NOTE: this is the same as a method in DrillExample
-        return 0;
+    // -------- Arrays
+    // Construct and initialize an array with with size elements
+    // and return the array. my_array[i] should hold the
+    // value val*i.
+    static int[] createArray(int size, int val) {
+        int[] my_array = new int[size];
+
+        // TODO: Write a loop that initializes the values in array.
+
+        return my_array;
     }
 
-    // Return the maximum number between a and b.
-    static int max(int a, int b) {
-        return 0;
-    }
+    // -------- Lists
+    // Return true if the given list contains the given value val
+    // and return false otherwise.
+    static boolean listContains(List<Integer> list, int val) {
+        // TODO: implement listContains
 
-    // Return the sum of a and b.
-    static int sum2(int a, int b) {
-        return 0;
-    }
-
-    // Return true if the input value is between 10 and 20, inclusive.
-    static boolean range1(int a, int b) {
         return false;
     }
 
-    // Return the absolute difference between two inputs.
-    static int absDiff(int a, int b) {
+    // -------- Sets
+    // Return whether the given set contains the given value.
+    // You can use any of the methods in the Set interface or
+    // iterate through the set and check each value.
+    static boolean contains(Set<Integer> set, int val) {
+        // TODO: implement the contains method
+
+        return false;
+    }
+
+    // -------- HashMaps
+
+    // Given a list of categories (represented as string),
+    // return a Map with the category being the key and
+    // the number of times that category appears being the value.
+    static Map<String, Integer> countCategories(List<String> list) {
+
+        // TODO: Implement the countCategories method
+        return new HashMap<>();
+    }
+
+    // Given a mapping of categories to a map of locations to
+    // a count of how many of that category are at each location,
+    // return the number of positions for the given location and
+    // category. Return 0 if the given location and category
+    // combination are not in the data.
+    static int numPositions(Map<String, Map<String, Integer>> data,
+            String category, String position) {
+
+        // TODO: Implement the numPositions method
+
         return 0;
     }
 
