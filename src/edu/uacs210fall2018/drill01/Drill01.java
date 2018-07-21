@@ -31,7 +31,7 @@ public class Drill01 {
     // -------- Sets
     // Return whether the given set contains the given value,
     // and return false otherwise.
-    static boolean contains(Set<Integer> set, int val) {
+    static boolean setContains(Set<Integer> set, int val) {
         // TODO: implement the contains method
 
         return false;
