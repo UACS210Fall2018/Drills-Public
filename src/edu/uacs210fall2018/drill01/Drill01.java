@@ -29,9 +29,8 @@ public class Drill01 {
     }
 
     // -------- Sets
-    // Return whether the given set contains the given value.
-    // You can use any of the methods in the Set interface or
-    // iterate through the set and check each value.
+    // Return whether the given set contains the given value,
+    // and return false otherwise.
     static boolean contains(Set<Integer> set, int val) {
         // TODO: implement the contains method
 
