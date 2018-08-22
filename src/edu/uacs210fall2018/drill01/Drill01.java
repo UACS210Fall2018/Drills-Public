@@ -8,7 +8,7 @@ import java.util.Set;
 public class Drill01 {
 
     // -------- Arrays
-    // Construct and initialize an array with with size elements
+    // Construct and initialize an array with size elements
     // and return the array. my_array[i] should hold the
     // value val*i.
     static int[] createArray(int size, int val) {
