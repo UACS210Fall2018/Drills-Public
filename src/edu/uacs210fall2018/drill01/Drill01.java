@@ -8,7 +8,7 @@ import java.util.Set;
 public class Drill01 {
 
     // -------- Arrays
-    // Construct and initialize an array with with size elements
+    // Construct and initialize an array with size elements
     // and return the array. my_array[i] should hold the
     // value val*i.
     static int[] createArray(int size, int val) {
@@ -29,10 +29,9 @@ public class Drill01 {
     }
 
     // -------- Sets
-    // Return whether the given set contains the given value.
-    // You can use any of the methods in the Set interface or
-    // iterate through the set and check each value.
-    static boolean contains(Set<Integer> set, int val) {
+    // Return whether the given set contains the given value,
+    // and return false otherwise.
+    static boolean setContains(Set<Integer> set, int val) {
         // TODO: implement the contains method
 
         return false;
