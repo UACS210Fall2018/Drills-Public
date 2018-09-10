@@ -19,7 +19,7 @@ public class Drill03TestClass {
     public void testShapeToStringTest() {
         Shape shape = new Shape();
         System.out.println("shape.toString(), got " + shape.toString());
-        assertEquals(shape.toString(), "Shape base class");
+        assertEquals("Shape base class", shape.toString());
     }
 
     @Test
@@ -59,7 +59,7 @@ public class Drill03TestClass {
     public void testSquareToStringTest1() {
         Shape shape = new Square(5.5);
         System.out.println("shape.toString(), got " + shape.toString());
-        assertEquals(shape.toString(), "Square(size = 5.5)");
+        assertEquals("Square(size = 5.5)", shape.toString());
     }
 
     @Test
@@ -67,7 +67,7 @@ public class Drill03TestClass {
     public void testSquareToStringTest2() {
         Square shape = new Square(3);
         System.out.println("shape.toString(), got " + shape.toString());
-        assertEquals(shape.toString(), "Square(size = 3.0)");
+        assertEquals("Square(size = 3.0)", shape.toString());
     }
 
     @Test
@@ -95,7 +95,7 @@ public class Drill03TestClass {
     public void testTriangleToStringTest1() {
         Shape shape = new Triangle(3, 2);
         System.out.println("shape.toString(), got " + shape.toString());
-        assertEquals(shape.toString(), "Triangle(base = 3.0, height = 2.0)");
+        assertEquals("Triangle(base = 3.0, height = 2.0)", shape.toString());
     }
 
     @Test
@@ -103,7 +103,7 @@ public class Drill03TestClass {
     public void testTriangleToStringTest2() {
         Triangle shape = new Triangle(6.7, 2.3);
         System.out.println("shape.toString(), got " + shape.toString());
-        assertEquals(shape.toString(), "Triangle(base = 6.7, height = 2.3)");
+        assertEquals("Triangle(base = 6.7, height = 2.3)", shape.toString());
     }
 
 }
