@@ -12,7 +12,6 @@ import org.junit.runners.MethodSorters;
 //This is an annotation for assigning point values to tests
 import com.gradescope.jh61b.grader.GradedTest;
 
-
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Drill05TestClass {
 
