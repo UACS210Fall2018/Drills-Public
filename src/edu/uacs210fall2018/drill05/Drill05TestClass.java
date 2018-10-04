@@ -199,4 +199,23 @@ public class Drill05TestClass {
         assertEquals(expected, gotBack);
     }
 
+    @Test
+    @GradedTest(name = "setArrayElem test2", max_score = 1)
+    public void testSetArrayElem2() {
+        // initialize the screen
+        char[][] screen = new char[5][10];
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 10; j++) {
+                screen[i][j] = '-';
+            }
+        }
+
+        // test setArrayElem
+        Drill05.setArrayElem(screen, 4, 2, 'v');
+        char expected = 'v';
+        char gotBack = screen[4][2];
+        System.out.println("setArrayElem: expected = " + expected
+                + ", gotBack = " + gotBack);
+        assertEquals(expected, gotBack);
+    }
 }
