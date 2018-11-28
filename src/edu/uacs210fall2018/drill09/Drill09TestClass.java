@@ -106,7 +106,7 @@ public class Drill09TestClass {
     }
 
     @Test
-    @GradedTest(name = "concat1n2List test1", max_score = 1)
+    @GradedTest(name = "concatWith1n2List test1", max_score = 1)
     public void testConcatWith1n2List1() {
         List<Integer> expected = new ArrayList<>();
         expected.add(1);
@@ -122,7 +122,7 @@ public class Drill09TestClass {
     }
 
     @Test
-    @GradedTest(name = "concat1n2List test2", max_score = 1)
+    @GradedTest(name = "concatWith1n2List test2", max_score = 1)
     public void testConcatWith1n2List2() {
         List<Integer> expected = new ArrayList<>();
         expected.add(1);
